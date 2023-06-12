@@ -45,7 +45,7 @@ export default defineComponent({
         const that = this;
         axios({
             method: 'post',
-            url: 'http://api.jqrjq.cn/api/mobile/elogin',
+            url: 'https://api.jqrjq.cn/api/mobile/elogin',
             data:{
               email: that.userForm.email,
               password: that.userForm.password,
